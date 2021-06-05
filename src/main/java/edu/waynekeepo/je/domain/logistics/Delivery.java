@@ -1,9 +1,9 @@
 package edu.waynekeepo.je.domain.logistics;
 
 
-import edu.waynekeepo.je.domain.DomainID;
+import edu.waynekeepo.je.domain.base.DomainID;
 import edu.waynekeepo.je.domain.client.Partner;
-import edu.waynekeepo.je.domain.product.Order;
+import edu.waynekeepo.je.domain.Order;
 
 //TODO: probably integrate with external delivery services
 public class Delivery extends DomainID {
