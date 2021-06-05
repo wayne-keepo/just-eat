@@ -1,12 +1,12 @@
 package edu.waynekeepo.je;
 
-import edu.waynekeepo.je.domain.client.Client;
+import edu.waynekeepo.je.domain.client.Partner;
 
 public class AppRun {
 
     public static void main(String[] args) {
-        Client client = new Client();
+        Partner partner = new Partner();
 
-        System.out.println(client.id());
+        System.out.println(partner.id());
     }
 }

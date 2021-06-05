@@ -1,7 +1,7 @@
 package edu.waynekeepo.je.domain.location;
 
 
-public class ClientAddress {
+public class PartnerAddress {
     private String country;
     private String region;
     private String city;
