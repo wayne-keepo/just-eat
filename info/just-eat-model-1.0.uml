@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.waynekeepo.je.domain.client.Contacts</OriginalElement>
+  <nodes>
+    <node x="22.63904494382018" y="553.0">edu.waynekeepo.je.domain.communication.PhoneNumber</node>
+    <node x="554.183988764045" y="106.0">edu.waynekeepo.je.domain.product.RawProduct</node>
+    <node x="891.6390449438202" y="553.0">edu.waynekeepo.je.domain.product.Food</node>
+    <node x="917.683988764045" y="117.0">edu.waynekeepo.je.domain.product.CookInstruction</node>
+    <node x="565.7223782771534" y="0.0">edu.waynekeepo.je.domain.base.DomainID</node>
+    <node x="330.683988764045" y="313.0">edu.waynekeepo.je.domain.location.AddressCoordinate</node>
+    <node x="11.433988764045012" y="771.0">edu.waynekeepo.je.domain.client.Contacts</node>
+    <node x="223.63904494382012" y="498.0">edu.waynekeepo.je.domain.location.PartnerAddress</node>
+    <node x="769.683988764045" y="117.0">edu.waynekeepo.je.domain.product.FoodImage</node>
+    <node x="172.683988764045" y="302.0">edu.waynekeepo.je.domain.location.House</node>
+    <node x="530.683988764045" y="771.0">edu.waynekeepo.je.domain.client.PartnerBag</node>
+    <node x="480.933988764045" y="912.0">edu.waynekeepo.je.domain.client.Partner</node>
+    <node x="744.5" y="258.0">edu.waynekeepo.je.domain.product.Recipe</node>
+    <node x="890.8230337078651" y="1086.0">edu.waynekeepo.je.domain.Order</node>
+    <node x="803.1390449438202" y="760.0">edu.waynekeepo.je.domain.client.FullName</node>
+    <node x="506.433988764045" y="1260.0">edu.waynekeepo.je.domain.logistics.Delivery</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.waynekeepo.je.domain.client.PartnerBag" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="-59.333333333333314" y="-39.0" />
+      <point x="560.3506554307116" y="734.0" />
+      <point x="531.933988764045" y="734.0" />
+      <point x="531.933988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.Order" target="edu.waynekeepo.je.domain.client.Partner" relationship="TO_ONE">
+      <point x="-49.66666666666666" y="-61.0" />
+      <point x="915.6563670411985" y="1060.0" />
+      <point x="569.933988764045" y="1060.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Partner" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="-22.25" y="-61.0" />
+      <point x="547.683988764045" y="886.0" />
+      <point x="520.183988764045" y="886.0" />
+      <point x="520.183988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.Order" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="49.66666666666663" y="-61.0" />
+      <point x="1014.9897003745317" y="1060.0" />
+      <point x="1154.933988764045" y="1060.0" />
+      <point x="1154.933988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.location.PartnerAddress" target="edu.waynekeepo.je.domain.location.AddressCoordinate" relationship="TO_ONE">
+      <point x="52.5" y="-105.0" />
+      <point x="381.1390449438201" y="472.0" />
+      <point x="420.183988764045" y="472.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.CookInstruction" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1020.183988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.logistics.Delivery" target="edu.waynekeepo.je.domain.client.Partner" relationship="TO_ONE">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Food" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="33.0" y="-50.0" />
+      <point x="990.6390449438202" y="472.0" />
+      <point x="1133.183988764045" y="472.0" />
+      <point x="1133.183988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Contacts" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="-69.33333333333326" y="-39.0" />
+      <point x="46.100655430711754" y="734.0" />
+      <point x="12.139044943820181" y="734.0" />
+      <point x="12.139044943820181" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.PartnerBag" target="edu.waynekeepo.je.domain.product.RawProduct" relationship="TO_MANY">
+      <point x="5.6843418860808015E-14" y="-39.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.logistics.Delivery" target="edu.waynekeepo.je.domain.Order" relationship="TO_ONE">
+      <point x="42.33333333333337" y="-61.0" />
+      <point x="612.2673220973784" y="1234.0" />
+      <point x="965.3230337078651" y="1234.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Recipe" target="edu.waynekeepo.je.domain.product.CookInstruction" relationship="TO_ONE">
+      <point x="82.5" y="-94.0" />
+      <point x="937.0" y="237.0" />
+      <point x="1020.183988764045" y="237.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Partner" target="edu.waynekeepo.je.domain.client.Contacts" relationship="TO_ONE">
+      <point x="-66.75" y="-61.0" />
+      <point x="503.183988764045" y="886.0" />
+      <point x="115.43398876404501" y="886.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.logistics.Delivery" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="-42.33333333333337" y="-61.0" />
+      <point x="527.6006554307116" y="1234.0" />
+      <point x="0.0" y="1234.0" />
+      <point x="0.0" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Partner" target="edu.waynekeepo.je.domain.client.FullName" relationship="TO_ONE">
+      <point x="66.75" y="-61.0" />
+      <point x="636.683988764045" y="886.0" />
+      <point x="875.1390449438202" y="886.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Recipe" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="-27.5" y="-94.0" />
+      <point x="827.0" y="227.0" />
+      <point x="759.183988764045" y="227.0" />
+      <point x="759.183988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Food" target="edu.waynekeepo.je.domain.product.Recipe" relationship="TO_ONE">
+      <point x="-33.0" y="-50.0" />
+      <point x="924.6390449438202" y="472.0" />
+      <point x="854.5" y="472.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Recipe" target="edu.waynekeepo.je.domain.product.FoodImage" relationship="TO_ONE">
+      <point x="27.5" y="-94.0" />
+      <point x="882.0" y="237.0" />
+      <point x="833.683988764045" y="237.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.PartnerBag" target="edu.waynekeepo.je.domain.product.Food" relationship="TO_MANY">
+      <point x="59.33333333333343" y="-39.0" />
+      <point x="679.0173220973784" y="734.0" />
+      <point x="957.6390449438202" y="734.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.RawProduct" target="edu.waynekeepo.je.domain.base.DomainID" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="619.683988764045" y="81.0" />
+      <point x="625.7223782771534" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.Order" target="edu.waynekeepo.je.domain.product.Food" relationship="TO_MANY">
+      <point x="0.0" y="-61.0" />
+      <point x="965.3230337078651" y="1060.0" />
+      <point x="957.6390449438202" y="1060.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Partner" target="edu.waynekeepo.je.domain.client.PartnerBag" relationship="TO_ONE">
+      <point x="22.25" y="-61.0" />
+      <point x="592.183988764045" y="886.0" />
+      <point x="619.683988764045" y="886.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Contacts" target="edu.waynekeepo.je.domain.location.PartnerAddress" relationship="TO_ONE">
+      <point x="69.33333333333326" y="-39.0" />
+      <point x="184.76732209737827" y="734.0" />
+      <point x="328.6390449438201" y="734.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.client.Contacts" target="edu.waynekeepo.je.domain.communication.PhoneNumber" relationship="TO_ONE">
+      <point x="0.0" y="-39.0" />
+      <point x="115.43398876404501" y="734.0" />
+      <point x="113.13904494382018" y="734.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.location.PartnerAddress" target="edu.waynekeepo.je.domain.location.House" relationship="TO_ONE">
+      <point x="-52.5" y="-105.0" />
+      <point x="276.1390449438201" y="472.0" />
+      <point x="241.683988764045" y="472.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.waynekeepo.je.domain.product.Recipe" target="edu.waynekeepo.je.domain.product.RawProduct" relationship="TO_MANY">
+      <point x="-82.5" y="-94.0" />
+      <point x="772.0" y="237.0" />
+      <point x="619.683988764045" y="237.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7000000000000001" showDependencies="true" x="754.5714285714284" y="673.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

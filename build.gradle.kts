@@ -1,6 +1,4 @@
 plugins {
-    id("org.springframework.boot") version "2.5.0"
-    id("io.spring.dependency-management") version "1.0.11.RELEASE"
     java
 }
 
@@ -20,14 +18,13 @@ repositories {
 
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
+
     runtimeOnly("org.postgresql:postgresql")
-//    developmentOnly("org.springframework.boot:spring-boot-devtools")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-//    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
-//    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+
+    compileOnly("org.projectlombok:lombok")
+
+    annotationProcessor("org.projectlombok:lombok")
+
 }
 
 tasks.getByName<Test>("test") {
