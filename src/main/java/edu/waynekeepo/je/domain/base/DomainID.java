@@ -1,4 +1,4 @@
-package edu.waynekeepo.je.domain;
+package edu.waynekeepo.je.domain.base;
 
 
 import java.io.Serializable;
