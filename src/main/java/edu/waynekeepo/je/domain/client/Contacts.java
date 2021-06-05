@@ -6,6 +6,6 @@ import edu.waynekeepo.je.domain.communication.PhoneNumber;
 import edu.waynekeepo.je.domain.location.ClientAddress;
 
 public class Contacts extends DomainID {
-    private ClientAddress address; // TODO: проработать
+    private ClientAddress address;
     private PhoneNumber phoneNumber;
 }

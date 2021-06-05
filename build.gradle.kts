@@ -21,11 +21,16 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
+
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+
     runtimeOnly("org.postgresql:postgresql")
-//    developmentOnly("org.springframework.boot:spring-boot-devtools")
+
+    compileOnly("org.projectlombok:lombok")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    annotationProcessor("org.projectlombok:lombok")
 //    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
 //    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }

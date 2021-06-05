@@ -10,8 +10,8 @@ import java.util.List;
 public class Client extends DomainID {
     private FullName fullName;
     private PartnerType clientTypes;
-    private Contacts contacts;
-    private List<Recipe> recipes; // TODO: проработать
-    private List<RawProduct> productsStock; // TODO: проработать
+    private List<Contacts> contacts;
+    private List<Recipe> recipes; // TODO: think about it
+    private List<RawProduct> productsStock; // TODO: think about it
 
 }

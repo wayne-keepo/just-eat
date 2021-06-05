@@ -1,6 +1,6 @@
 package edu.waynekeepo.je.domain.location;
 
-
+@Deprecated
 public enum Country {
     RUSSIA("Russia", "Россия", "RU", "RUS", 643);
 

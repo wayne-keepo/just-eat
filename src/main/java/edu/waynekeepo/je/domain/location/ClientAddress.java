@@ -1,14 +1,12 @@
 package edu.waynekeepo.je.domain.location;
 
 
-import edu.waynekeepo.je.domain.DomainID;
-
-public class ClientAddress extends DomainID {
-    private Country country;
-    private Region region;
-    private City city;
-    private District district;
-    private Street street;
+public class ClientAddress {
+    private String country;
+    private String region;
+    private String city;
+    private String district;
+    private String street;
     private House house;
     private String description;
     private AddressCoordinate coordinate;

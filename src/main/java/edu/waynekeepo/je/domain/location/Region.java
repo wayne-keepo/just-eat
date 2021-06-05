@@ -1,6 +1,6 @@
 package edu.waynekeepo.je.domain.location;
 
-
+@Deprecated
 public enum Region {
     SAMARA_REG("Samara region", "Самарская область", "RU_SAM");
 
