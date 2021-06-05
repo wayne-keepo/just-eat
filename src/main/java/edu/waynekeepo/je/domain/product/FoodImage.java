@@ -1,10 +1,7 @@
 package edu.waynekeepo.je.domain.product;
 
 
-import edu.waynekeepo.je.domain.DomainID;
-
-
-public class FoodImage extends DomainID {
+public class FoodImage {
     private String title;
     private String url;
 }
